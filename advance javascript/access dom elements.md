@@ -329,6 +329,8 @@
 
     getElement methods returns object htmlcollection (collection of HTML elements) -> which do not contain attribute nodes and text nodes.
     querySelectorAll returns object nodelist (collection of document nodes) -> which contain attribute nodes and text nodes.
+
+    element vs node: any element property or element method will only work with element, where node property will work on element node, text node or comment node.
     */
 
     //element selector

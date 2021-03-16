@@ -38,7 +38,7 @@
 
 
 
-    //assigning an array to a variable will make that variable array (will not create a new array). means every elements of the array will also store in that variable with there index number. and modifying this variables value will also modify the orginal arrays value.
+    //assigning an array to a variable will make that variable array (will not create a new array). means every elements of the array will also store in that variable with there index number. and modifying this variables value will also modify the orginal arrays value. (by default when you create variable and store another variable in it, then changing the main variables data do not changes the stored variables data but overwrites that variable)
     let mess = students;
 
     mess[1] = "abdur rahim";//overwriting value of students[1] indirectly
